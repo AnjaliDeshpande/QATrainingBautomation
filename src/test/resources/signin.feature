@@ -3,7 +3,7 @@ Feature: Registration
   Scenario: Submit with all valid fields
     Given I open URL as "http://www.d3dsecurity.co.uk"
     Given I click Contact Us button
-    And I enter valid first name as "First name 123"
+    And I enter valid first name as "kishor"
     And I enter valid last name as "Last name 123"
     And I enter valid email id as " Test123@hotmail.com"
     And I enter valid phone number as "Phone number 123"
